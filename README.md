@@ -1,81 +1,79 @@
 # Machine Learning Classifiers
 
 ## 📝 Description  
-Ce projet regroupe trois classifieurs de machine learning :  
-- **Arbre de Décision** : Modèle basé sur des règles de décision sous forme d’arbre, permettant de classifier les données en suivant des branches logiques.  
-- **k-Plus Proches Voisins (K-Nearest Neighbours, KNN)** : Algorithme qui classe un point en fonction des classes majoritaires parmi ses k plus proches voisins.  
-- **Naive Bayes** : Modèle probabiliste basé sur le théorème de Bayes, supposant l’indépendance entre les caractéristiques.  
+This project includes three machine learning classifiers:  
+- **Decision Tree**: A model based on decision rules in the form of a tree, classifying data by following logical branches.  
+- **K-Nearest Neighbours (KNN)**: An algorithm that classifies a point based on the majority classes of its k nearest neighbors.  
+- **Naive Bayes**: A probabilistic model based on Bayes' theorem, assuming independence between features.  
 
-Chaque algorithme est implémenté dans un fichier distinct, avec un jeu de données pour entraîner et évaluer les modèles.  
-
----
-
-## 📂 Contenu du projet  
-- **decision_tree_classifier.py** : Implémentation du classifieur basé sur l'Arbre de Décision.  
-- **k_nearest_neighbours_classifier.ipynb** : Implémentation du classifieur K-Nearest Neighbours.  
-- **naive_bayes_classifier.ipynb** : Implémentation du classifieur Naive Bayes.  
-- **car_evaluation.csv** : Jeu de données utilisé pour le Naive Bayes.  
+Each algorithm is implemented in a separate file, with a dataset to train and evaluate the models.  
 
 ---
 
-## ⚙️ Prérequis  
+## 📂 Project Content  
+- **decision_tree_classifier.py**: Implementation of the Decision Tree classifier.  
+- **k_nearest_neighbours_classifier.ipynb**: Implementation of the K-Nearest Neighbours classifier.  
+- **naive_bayes_classifier.ipynb**: Implementation of the Naive Bayes classifier.  
+- **car_evaluation.csv**: Dataset used for the Naive Bayes model.  
+
+---
+
+## ⚙️ Prerequisites  
 - Python 3.x  
-- Bibliothèques nécessaires :  
+- Required Libraries:  
   - numpy  
   - pandas  
   - sklearn  
-  - matplotlib (pour la visualisation)  
+  - matplotlib (for visualization)  
 
-Pour installer les dépendances :  
+To install the dependencies:  
 ```bash
 pip install numpy pandas scikit-learn matplotlib
 ```
 
 ---
 
-## 🚀 Utilisation  
+## 🚀 Usage  
 
-1. **Arbre de Décision**  
-   - Exécute le script principal :  
+1. **Decision Tree**  
+   - Run the main script:  
      ```bash
      python decision_tree_classifier.py
-     ```
-   - Analyse les résultats affichés :  
-     - Visualisation de l’arbre de décision.  
-     - Rapport de classification et matrice de confusion pour évaluer les performances.  
+     ```  
+   - Analyze the displayed results:  
+     - Visualization of the decision tree.  
+     - Classification report and confusion matrix to evaluate performance.  
 
 2. **K-Nearest Neighbours**  
-   - Ouvre le notebook :  
+   - Open the notebook:  
      ```bash
      jupyter notebook k_nearest_neighbours_classifier.ipynb
-     ```
-   - Suis les étapes :  
-     - Chargement des données.  
-     - Entraînement du modèle avec différents k.  
-     - Évaluation avec la matrice de confusion et la courbe des erreurs en fonction de k.  
+     ```  
+   - Follow the steps:  
+     - Load the data.  
+     - Train the model with different values of k.  
+     - Evaluate using the confusion matrix and error curve based on k.  
 
 3. **Naive Bayes**  
-   - Ouvre le notebook :  
+   - Open the notebook:  
      ```bash
      jupyter notebook naive_bayes_classifier.ipynb
-     ```
-   - Suis les étapes :  
-     - Chargement du fichier **car_evaluation.csv**.  
-     - Prétraitement des données.  
-     - Entraînement du modèle Naive Bayes.  
-     - Visualisation des résultats : score d’exactitude, matrice de confusion, et analyse des erreurs.  
+     ```  
+   - Follow the steps:  
+     - Load the **car_evaluation.csv** file.  
+     - Preprocess the data.  
+     - Train the Naive Bayes model.  
+     - Visualize the results: accuracy score, confusion matrix, and error analysis.  
 
 ---
 
-## 📊 Résultats  
-Chaque modèle est évalué en utilisant des métriques comme :  
-- La précision (accuracy).  
-- La matrice de confusion.  
-- Le rapport de classification.  
+## 📊 Results  
+Each model is evaluated using metrics like:  
+- Accuracy.  
+- Confusion matrix.  
+- Classification report.  
 
-Les résultats permettent de comparer les performances des trois algorithmes sur le même jeu de données.  
+The results allow for a comparison of the performance of the three algorithms on the same dataset.  
 
 ---
-
-
 
